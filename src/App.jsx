@@ -35,7 +35,6 @@ export default function App() {
   }
 
   function deleteTodo(id) {
-    console.log(id)
     setTodos(currentTodos => {
       return currentTodos.filter(todo => todo.id !== id)
     })
